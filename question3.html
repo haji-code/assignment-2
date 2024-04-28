@@ -1,0 +1,50 @@
+ <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>question3</title>
+        <style>
+            table, th{
+                border: 2px solid gray;
+                border-collapse: collapse;
+                padding: 12px;
+            }
+            tr{
+                text-align:left;
+            }
+            tr, .heading{
+                text-align: center;
+            }
+            th{
+                text-align: left;
+            }
+        </style>
+    </head>
+    <center>
+    <body>
+        <table style="width:60%; height:60%">
+            <tr>
+                <th colspan="4"><h4 style="text-align: center;">Table Heading Cells Spanning 4 colomns</h4></th>
+            </tr>
+            <tr text-align="left">
+                <th>Normal cell</th>
+                <th colspan="2">Cell spanning 2 colomns</th>
+                <th>Normal cells</th>
+            </tr>
+            <tr>
+                <th style="background-color: gray;" rowspan="3">Cell spanning 3 <br> rows with a gray  <br> (US spelling) background</th>
+                <th>Normal cell</th>
+                <th>Normal cell</th>
+                <th>Normal cell</th>
+            </tr>
+            <tr>
+                <th>Normal cell</th>
+                <th rowspan="2" colspan="2">Cell spanning 2 rows and <br> 2 colomns</th>
+            </tr>
+            <tr>
+                <th>Normal cell</th>
+            </tr>
+        </table>
+    </body>
+    </center>
+</html>
